@@ -35,7 +35,6 @@ var startMeUp = function(){
   showGlobals();
   // call our other functions
   someWordyThing();
-  console.log();
   // add some random number to the globalNumber
   globalNumber += someMathyThing();
   showGlobal();
