@@ -18,7 +18,7 @@ Right-click on the page and choose "inspect" (My preferred method)
 "Console" is where we'll be doing much of our work. As you've seen, "console.log()" puts text in the Console and this is one of the most useful tools in your Batman Utility Belt.
 ![alt tag](http://devjana.net/prework/week4Pics/04 console.png)
 
-Let's take a gander at the code within this project. You'll see that there's a couple global variables (globalNumber, globalString) "startMeUp" function that is run on page load. There are also functions for "showGlobals", "someMathyThing", and "someWordyThing".
+Let's take a gander at the code within this project. You'll see that there's a couple global variables (globalNumber, globalString) and a "startMeUp" function that is run on page load. There are also functions for "showGlobals", "someMathyThing", and "someWordyThing".
 
 I've tried to comment the code meaningfully so you should be able to glean it's functionality by mindfully perusing the JS file. The "startMeUp" function is run on page load via the "onLoad" tag in the body element. This can be seen in the Elements tab of DevTools:
 ![alt tag](http://devjana.net/prework/week4Pics/05 onLoad.png)
