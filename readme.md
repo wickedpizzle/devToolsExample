@@ -60,9 +60,12 @@ Awesome! Except it looks like we've got an error now:
 Your assignment:
 
 Regular mode:
-ID and fix this error. Email us how you found it and what you had to do.
+* ID and fix this error
+* Email us how you found it and what you had to do.
+* zip file download: https://github.com/devjanaprime/devToolsExample/archive/master.zip
 
 Hard mode:
-Do the same for this:  
-
+* Do the same for this
+* explain each of the errors you found and how they were fixed
+* zip file download: https://github.com/devjanaprime/devToolsExample/archive/iHaveIssues.zip
 Contrary to popular belief, DevTools was not named after me.
