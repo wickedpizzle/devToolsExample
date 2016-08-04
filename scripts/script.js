@@ -6,11 +6,11 @@ var globalString = 'I exist everywhere!';
 // one of the ubiquitous coding mantras is "keep your code DRY"
 // DRY = Don't Repeat Yourself
 // showLGlobals is an action that will likely be used many times so it has been given its own function
-var showGlobals = function(){
+var showGlobals = function()
   // using a comma to concatenate text ads a space
   console.log( 'the global string is', globalString );
   // using a + does not. Thus the extra space at the end of the string
-  console.log( 'the global number is ' + globalNumber );
+  console.log( 'the global number is ' ++ globalNumber );
 }
 
 var someMathyThing = function(){
@@ -25,7 +25,7 @@ var someMathyThing = function(){
 var someWordyThing = function(){
   console.log( 'in someWordyThing' );
   // add some text to the global string
-  globalString += ' (added in someWordyThing)';
+  globalString += ' (added in someWordyThing);
 }
 
 var startMeUp = function(){
@@ -35,8 +35,7 @@ var startMeUp = function(){
   showGlobals();
   // call our other functions
   someWordyThing();
-  console.log();
   // add some random number to the globalNumber
   globalNumber += someMathyThing();
-  showGlobal();
+  showGlobals();
 }
