@@ -1,9 +1,11 @@
 // it isn't "necessary" to do a "this script is sourced" log, but I find it useful
 console.log( 'script.js sourced' );
 // some global variables
-var globalString = 'I exist everywhere!';
 var globalNumber = 1.61803398875;
-
+var globalString = 'I exist everywhere!';
+// one of the ubiquitous coding mantras is "keep your code DRY"
+// DRY = Don't Repeat Yourself
+// showLGlobals is an action that will likely be used many times so it has been given its own function
 var showGlobals = function(){
   // using a comma to concatenate text ads a space
   console.log( 'the global string is', globalString );
