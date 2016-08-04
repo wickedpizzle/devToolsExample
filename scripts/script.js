@@ -38,5 +38,5 @@ var startMeUp = function(){
   console.log();
   // add some random number to the globalNumber
   globalNumber += someMathyThing();
-  showGlobals();
+  showGlobal();
 }

@@ -35,6 +35,8 @@ A few practices that I've adopted that may not be apparent without explanation:
 * the first console.log that alerts that the script has been sourced isn't necessary, but can be helpful when sourcing a number of files and you need to know the order in which they are sourced. This is very helpful later on.
 * Logging out the entry point to a function (the 'in FUNCTIONNAME' log that I do on the first line of each function)is likewise not necessary, but I find it a useful practice when tracing through the console.
 
+Using the console to trouble shoot
+==================================
 Let's look at what happens when there's problems with the code:
 ![alt tag](http://devjana.net/prework/week4Pics/08 errors.png)
 
@@ -48,6 +50,19 @@ Let's take a look at line 7 in index.html:
 ![alt tag](http://devjana.net/prework/week4Pics/10 errorLine.png)
 Here we can see the HTML file is trying to source in "scripts.js". Problem is that the file is named "script.js".
 
+Once that is fixed, we'll be able to see the script correctly sourced again:
+![alt tag](http://devjana.net/prework/week4Pics/11 sourceCorrected.png)
 
+Awesome! Except it looks like we've got an error now:
+![alt tag](http://devjana.net/prework/week4Pics/12 newError.png)
+
+
+Your assignment:
+
+Regular mode:
+ID and fix this error. Email us how you found it and what you had to do.
+
+Hard mode:
+Do the same for this:  
 
 Contrary to popular belief, DevTools was not named after me.
