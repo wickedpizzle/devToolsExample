@@ -71,16 +71,8 @@ Awesome! Except it looks like we've got another error now:
 
 ![alt tag](pics/12newError.png)
 
-Your assignment:
+Try It Out!
+===========
+[Complete the prework assignment.](http://www.primeacademy.io/student/assignments)
 
-Regular mode:
-* ID and fix this error
-* Email us how you found it and what you had to do.
-* zip file download: https://github.com/devjanaprime/devToolsExample/archive/master.zip
-
-Hard mode:
-* Do the same for this
-* explain each of the errors you found and how they were fixed
-* zip file download: https://github.com/devjanaprime/devToolsExample/archive/iHaveIssues.zip
-
-Contrary to popular belief, DevTools was not named after me.
+Also, contrary to popular belief, DevTools was not named after me.
