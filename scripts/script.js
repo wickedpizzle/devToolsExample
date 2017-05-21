@@ -11,7 +11,7 @@ var showGlobals = function(){
   console.log( 'the global string is', globalString );
   // using a + does not. Thus the extra space at the end of the string
   console.log( 'the global number is ' + globalNumber );
-}
+};
 
 var someMathyThing = function(){
   console.log( 'in someMathyThing' );
@@ -20,13 +20,13 @@ var someMathyThing = function(){
   var randomNumberBetween0And10 = Math.random() * 10;
   console.log( 'returning:', randomNumberBetween0And10 );
   return randomNumberBetween0And10;
-}
+};
 
 var someWordyThing = function(){
   console.log( 'in someWordyThing' );
   // add some text to the global string
   globalString += ' (added in someWordyThing)';
-}
+};
 
 var startMeUp = function(){
   // logging out the function name at the start of a function can be helpful
@@ -37,5 +37,5 @@ var startMeUp = function(){
   someWordyThing();
   // add some random number to the globalNumber
   globalNumber += someMathyThing();
-  showGlobal();
-}
+  showGlobals();
+};
